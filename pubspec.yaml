@@ -10,7 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  value_layout_builder: ^0.4.0
+  # value_layout_builder: ^0.4.0
+  value_layout_builder:
+    git:
+      url: https://github.com/majedNaifeh/value_layout_builder.git
+      ref: master
 
 dev_dependencies:
   flutter_test:
